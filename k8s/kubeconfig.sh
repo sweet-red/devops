@@ -1,5 +1,6 @@
 APISERVER=$1
 SSL_DIR=$2
+BOOTSTRAP_TOKEN=0fb61c46f8991b718eb38d27b605b008
 
 # 创建kubelet bootstrapping kubeconfig 
 export KUBE_APISERVER="https://$APISERVER:6443"
