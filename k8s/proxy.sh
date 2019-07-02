@@ -9,6 +9,7 @@ KUBE_PROXY_OPTS="--logtostderr=true \\
 --hostname-override=${NODE_ADDRESS} \\
 --cluster-cidr=10.0.0.0/24 \\
 --proxy-mode=ipvs \\
+--masquerade-all=true
 --kubeconfig=/opt/kubernetes/cfg/kube-proxy.kubeconfig"
 
 EOF
